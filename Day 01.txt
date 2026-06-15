@@ -1,0 +1,65 @@
+Website : Collection of Webpages
+Webpage: Collection of Multimedia and Text
+Search Engine: Google, Bing, Yahoo
+Bowser: Chrome, Edge, 
+_____________________________________________ 
+HTML : HyperText Markup Language 
+It is used to create structure of a webpage.
+
+HTML5 is the latest version of HTML.
+<> : Angular Bracket
+Basic Structure of the HTML Page :
+<!doctype HTML>
+<html>
+	<head>
+		<title> </title>
+		<style> </style>
+		<meta>
+		<script> </script>
+		<link>  
+	</head>
+	<body>
+	</body>
+</html>
+<!doctype html> :  It tells the version of html (5)
+<html> </html> :  Largest Container Tag
+
+<head> </head> : In which we store all the info related to the page.
+<title> </title> : It is for the title of the webpage.
+<meta> : It stores the information of the webpage in the form of keywords and description.
+<script> </script> : Which is used to write JavaScript and link the JS.
+<style> </style> : Here we write Internal CSS.
+<link>  : It is used to link external css and favicon icon to the webpage.
+
+<body> </body> : In which we write the content for the webpage.
+		It is the second largest container tag
+
+Types of Tags:
+1. Container Tags 
+	<p> Content  </p>
+2. Standalone Tags 
+	<img src="" alt="">
+
+___________________________________________________
+Block Level Tag : Which covers complete width
+<div> </div>, <p> </p>
+
+Inline Tag : Which covers content level width
+
+	<span> </span>, <a href=""> </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
