@@ -1,0 +1,20 @@
+Types of List :
+1. Ordered List 
+2. Unordered List
+3. Definition/Description List
+
+Structure
+
+Ordered List:
+	<ol>
+		<li> Content </li>
+	</ol>
+Un-ordered List:
+	<ul>
+		<li> Content </li>
+	</ul>
+Definition/decription List:
+	<dl>
+		<dt> Definition Term </dt>
+		<dd> Definition Description </dd>
+	</dl>
