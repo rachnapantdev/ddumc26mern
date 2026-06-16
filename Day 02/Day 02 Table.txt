@@ -1,0 +1,62 @@
+Structure of Table
+<table>
+	<thead>
+		<tr>
+			<th> </th>
+			....
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> </td>
+			....
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td> </td>
+		</tr>
+	</tfoot>
+</table> 
+
+
+<table> </table> :  Container tag of table
+<thead> </thead> : Header of the table
+<tbody> </tbody> : Body of the table
+<tfoot> </tfoot> :  Footer of the table
+<tr> </tr> : Table Row 
+<td> </td> :  Table Data 
+<th> </th> : Table Heading
+
+
+Attributes of Table Tag :
+<table> </table>
+cellpadding 
+cellspacing 
+border
+width
+
+Attributes of td and th:
+colspan
+rowspan
+
+<img src="" alt="" title="" >
+
+alt:  Alternate Text 
+Title : Title of the image
+
+Anchor Tag : Which is used to create Hyperlink
+
+Link to the webpage 
+<a href="link" > Content </a>
+
+Link to the email:
+<a href="mailto:email@gmail.com"> Mail here</a>
+
+Link to the contact number :
+<a href="tel:9898989898"> Call us </a>
+
+
+
+
+
