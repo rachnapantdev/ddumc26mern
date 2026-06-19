@@ -1,0 +1,31 @@
+*{
+
+}
+body{
+    background-color: thistle;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.items{
+    padding: 20px;
+    border: 5px solid deeppink;
+
+}
+.header, .footer, .banner{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.aside{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.banner{
+    height: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/28/05/37/sunflower-1421011_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}

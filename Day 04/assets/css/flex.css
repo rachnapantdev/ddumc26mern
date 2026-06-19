@@ -1,0 +1,23 @@
+*{
+
+}
+.flex-container{
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-item{
+   height: 100px;
+   width: 100px;
+   border: 10px inset rebeccapurple; 
+   transition: 2s all;
+}
+.flex-item:hover{
+    /* transform: scale(1.1); */
+    transform: rotate(45deg);
+    background-color: darksalmon;
+}
