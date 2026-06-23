@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {}
+
+nav {
+    display: flex;
+    background-color: darksalmon;
+
+}
+
+.left-nav {
+    flex: 30%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.right-nav {
+    flex: 70%;
+    text-align: right;
+}
+
+.right-nav ul {
+    list-style-type: none;
+}
+
+.right-nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-nav ul li:hover {
+    background-color: black;
+}
+
+.right-nav ul li:hover a {
+    color: darksalmon;
+}
+
+section {}
+
+.banner {
+    height: 400px;
+    border: 1px groove black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-text {
+    font-size: 90px;
+    background-image: linear-gradient(darksalmon, white);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.header-button {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: darksalmon;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/* About section CSS */
+
+.aboutMe {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.aboutMe h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.left-about {
+    font-size: 20px;
+}
+
+.left-about p {
+    text-align: justify;
+}
+
+.right-about {
+    height: 299px;
+}
+
+/* Skill csss starts here */
+.skill-section {
+    padding: 20px;
+    background-color: black;
+    color: darksalmon;
+}
+
+.skill {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 60%;
+    margin: auto;
+}
+
+.skill-section h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 30px;
+    background-color: darksalmon;
+    color: black;
+    padding: 10px 0px;
+    border-radius: 40px;
+
+    animation-name: skill;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+/* animation for skill */
+
+@keyframes skill {
+    from {
+        background-color: darksalmon;
+    }
+
+    to {
+        background-color: whitesmoke;
+    }
+}
+
+/* Project Section CSS */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects img {
+    height: 200px;
+}
+.projects img:hover{
+    transform: scale(1.1);
+}
+.projects .project-name {
+    padding: 20px;
+}
+
+.card {
+    border: 2px inset black;
+
+}
+
+.card .card-header {
+    padding: 20px;
+    border-bottom: 2px inset black;
+
+}
+
+.card .card-body {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px inset black;
+    padding: 10px;
+}
+
+.card .card-footer {
+    padding: 10px;
+
+    text-align: center;
+}
+
+.card-footer a {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
