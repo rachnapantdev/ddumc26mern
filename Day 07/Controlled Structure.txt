@@ -1,0 +1,139 @@
+Conditional Statements:
+1. if
+2. if else
+3. if else if
+4. Nested if 
+5. switch
+
+Syntax:
+
+	if(condition){
+		Statements;
+	}
+
+Syntax:
+	if (condition){
+		Statements;
+	}
+	else{
+		Statements;
+	}
+
+Syntax: if else if : 
+	if(condition){
+		Statements;
+	}
+	else if(condition){
+		Statements;
+	}
+	.
+	.
+	else {
+		Statements;
+	}
+
+Nested If :
+	Syntax:	
+		if (condition1){
+		
+			if(condition2)
+			{
+				Statements;
+			}
+			else{
+				Statements;
+			}
+		}
+		else{
+			Statements;
+		}
+
+
+5. switch :
+	switch(choice){
+			
+		case number/string:
+			statements;
+			break;
+		.	
+		.
+		default:
+			Statements;	
+	}
+
+
+
+
+Loops:
+1. while 
+2. do while
+3. for 
+Syntax:
+1. while :Entry Control loop.
+	while(condition){
+		Statements;
+		inc/dec;
+	}
+2. do while : Exit control loop
+	do{
+		Statements;
+		inc/dec;
+	}while(condition);
+		
+3. for loop:
+		for(initialization; condition; inc/dec){
+			Statements;	
+		}
+____________________________________________________________________________________
+Array: In JavaScript Array is an Object. Which store hetrogeneous data
+
+There are 2 ways to declare an Array :
+
+1. By using Literals 
+2. By using Array Constructor 
+
+1. Literal :
+	Syntax:
+		let arr = [values seprated by comma];
+
+2. Array Constructor :
+	Syntax:
+		let arr =  new Array(values seprated by comma);
+
+Index: Always starts from 0. 
+
+___________________________________________________________________________
+
+for in Loop : It is used to iterate over the Object and Array. It returns index number only / keys from an Object
+
+Syntax: 
+	for(let a in arr)
+	{
+		Statements;
+	}
+
+for of Loop : It only iterates directly over the values of an iterable object. It returns Value of each index.
+
+Syntax: 
+	for(let a of arr)
+	{
+		Statements;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
