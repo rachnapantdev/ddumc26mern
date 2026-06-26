@@ -1,0 +1,49 @@
+Function : It is a block of code which is used to execute a specific task.
+In javascript we define function with "function" keyword.
+
+Types of functions :
+1. Pre-define 
+2. User define 
+__________________________
+1. function without parameter
+2. function with parameter
+3. function with return keyword 
+4. function with default argument
+
+Syntax:
+// function define
+1. function functionName()
+	{
+		Statements;
+	}
+// function calling 
+	functionName()
+
+2. function functionName(parameters seprated by comma)
+	{
+		Statements;
+	}
+3. function functionName(){
+		return statements;
+	}
+4. function functionName(para1, ....., para = "Val"){ Statements;}
+______________________________________________________________________
+1. Higher Order Functions
+2. First Class Functions
+3. Callback Function
+4. Arrow Function 
+5. IIFE function (Immediate Invoke Function Expression)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

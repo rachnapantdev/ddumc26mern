@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+        }
+        img{
+            height: 270px;
+        }
+        .grid-image{
+            border: 5px groove darkblue;
+        }
+        .grid-image:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        function dispalyImage(i){
+            return(`<img src=${i} >`)
+        }
+
+        let images = [
+    "https://cdn.pixabay.com/photo/2016/04/30/21/45/tulips-1364024_1280.jpg",
+    "https://cdn.pixabay.com/photo/2022/03/30/15/52/gerbera-7101430_1280.jpg",
+];
+
+document.write(`<div class="grid-container">`)
+for(let i of images){
+    document.write(`<div class="grid-image">
+                ${ dispalyImage(i)}
+            </div>
+            `)
+   
+    
+}
+document.write(`</div>`)
+ 
+    </script>
+</body>
+</html>
