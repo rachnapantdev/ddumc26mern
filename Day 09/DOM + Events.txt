@@ -1,0 +1,27 @@
+Methods and Properties of document object
+
+Methods:
+	document.getElementByID("idName");
+
+	document.getElementsByClassName("className");
+	document.getElementsByTagName("tagName");
+
+	querySelector("selector");   -------- SingleElement Return
+	querySelectorAll("selector"); ------ Multiple Element Return 
+
+Properties:
+	innerText
+	innerHTML
+	textContent
+_______________________________________________________________________________
+Event : Action 
+	Types of Event
+	1. keyborad Event		onkeyPress, 	onkeyUp, 	onkeyDown
+	2. Mouse Event		onclick,	ondblclick, onmouseover, 
+	3. Form Event		onsubmit
+	4. Window Event		onload, ....
+
+
+
+
+

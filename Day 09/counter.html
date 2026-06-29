@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+        }
+        button{
+            border: 5px groove ;    
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: purple;
+            color: plum;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+        span{
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <button onclick="minus()"> - </button>
+            <span id="num"> 0 </span>
+            <button onclick="plus()"> + </button>
+        </div>
+    </div>
+<script src="assets/js/counter.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // setTimeout(() => {
+        //     console.log("A");
+        //     setTimeout(() => {
+        //         console.log("B");
+        //         setTimeout(() => {
+        //             console.log("C")
+        //         }, 1000)
+        //     }, 2000)
+        // }, 5000)
+
+
+
+
+        // How to create a Promise ?
+        let promise = new Promise((resolve, rejected) => {
+            let status = false;
+            if (status) { 
+                    resolve("Work Completed"); 
+                }
+            else { 
+                rejected("Not Completed"); 
+            }
+        })
+        console.log(promise)
+// How to use ?
+promise.then((val)=>{
+    console.log(val)
+}).catch((err)=>{
+    console.log(err)
+})
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
