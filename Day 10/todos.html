@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="todo" placeholder="Enter task">
+    </div>
+
+    <div>
+        <button onclick="addTask()"> Add Task </button>
+    </div>
+
+    <ul id="res">
+
+    </ul>
+
+    <script>
+        function addTask(){
+           let task =  document.getElementById("todo").value
+           console.log(task);
+
+           document.getElementById("res").innerHTML+=` <li> ${task} </li>`
+           document.getElementById("todo").value=""
+        }
+    </script>
+</body>
+
+</html>
