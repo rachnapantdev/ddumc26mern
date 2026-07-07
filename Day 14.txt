@@ -1,0 +1,70 @@
+State : It is used to manage State Locally to the Component.
+To use this state in functional component we use "useState()" hook of react .
+
+useState returns an Array with exact two values
+
+1. currentState
+2. function to update the current state.
+
+Syntax:
+	import {useState} from 'react';
+	const [state, setState] =  useState(initalValue);
+
+
+
+Routing in React JS :
+
+Routing is used to navigate from one component to another component.
+
+Need to install following in our app:
+1. npm i react-router
+2. npm i react-router-dom
+
+Types of Routing 
+1. Static Routing 
+2. Nested Routing 
+3. Dynamic Routing 
+4. Wild card Routing 
+________________________________________________________________________________
+
+<BrowserRouter>
+	
+	<Routes>
+		<Route path="" element = {<Home />}  />
+	</Routes>
+	
+</BrowserRouter>
+
+
+Instead of <a> Tag we use <Link> </Link> Component
+Syntax:
+	<Link to="" > Name </Link>
+
+
+Task
+
+Home Work
+
+1.       Props
+
+2.       State
+
+Assignments
+
+1.       Create a parent component that passes data to a child component using props.
+
+2.       Create a component that receives multiple props and displays them.
+
+3.       Create a component that uses default props
+
+4.       Create a reusable Card component that accepts content via the children prop
+
+5.       Pass an object as a prop and deconstruct it in the child component
+
+6.       Using useState you need to create toggle button which changes the background [dark/light] mode.
+
+
+
+
+
+
