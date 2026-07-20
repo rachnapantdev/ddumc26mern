@@ -1,0 +1,22 @@
+NPM	:	Node Package Manager
+NPX	:	Node Package Executor
+
+Event Loop Architecture 
+	First Step : It will check if there is anything to execute in call stack , if yes 
+1. Call Stack	:  Synchronous Code 
+
+	if no , then it will go to the Web APIs
+
+2. Web APIs	: localstorage, location , ....
+
+	It will check the Callback Queue
+	
+3. Callback Queue
+		It will first execute the MicroTask
+		MicroTask Queue	: Promises
+		
+		MacroTask Queue 	: Timers like, setTimeout, setInterval, ...
+
+		After Micro Task , It will execture the Macro task
+		
+4. Event Loop	
