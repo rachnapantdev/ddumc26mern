@@ -23,3 +23,8 @@ export const deleteUser = async(id)=>{
    return user;
 
 }
+
+export const getUsersByName = async(name)=>{
+    let users =  await axios.get("http://localhost:9000/"+name);
+    return await users.data
+}

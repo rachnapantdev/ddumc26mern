@@ -1,0 +1,24 @@
+JWT :  JSON Web Token
+It is used for Authentication.
+
+It generate Token at the time of login
+Types of Token 
+1. Access Token
+2. Referesh Token
+
+
+Token is divided into 3 Parts
+
+Header: States the token type (JWT) and signing algorithm (like HS256).
+
+Payload: Contains user data and rules, such as user ID and expiration time.
+
+Signature: Combines the header, payload, and a secret key to prove the token is real.
+
+________________________
+
+Process:
+	login : 
+		jwt.sign() : It returns the token
+		jwt.verify() : It verfies the token
+

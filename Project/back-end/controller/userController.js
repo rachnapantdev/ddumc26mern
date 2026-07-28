@@ -20,6 +20,17 @@ export const getUserById = async (req, res) => {
     }
 }
 
+export const getUsersByName = async(req, res)=>{
+    try{
+           let result =  await User.find({fname:req.params.fname});
+          res.send(result)
+           
+    }catch(err){
+        console.log(err);
+        
+    }
+}
+
 export const saveData = async (req, res) => {
     try {
         let newUser = new User({
